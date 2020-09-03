@@ -26,8 +26,8 @@ function VideoCard({ url, likes, shares, channel, avatarSrc, song }) {
         className="videoCard__player"
         src={url}
         alt="IG reel video"
-        loop=""
-        />
+        loop="" />
+        
       <VideoFooter 
         channel={channel}
         avatarSrc={avatarSrc}
