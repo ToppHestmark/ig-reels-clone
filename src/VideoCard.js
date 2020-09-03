@@ -25,8 +25,8 @@ function VideoCard({ url, likes, shares, channel, avatarSrc, song }) {
         onClick={onVideoPress}
         className="videoCard__player"
         src={url}
-        alt="IG reel video"
-        loop="" />
+        alt="Reel video"
+        loop />
         
       <VideoFooter 
         channel={channel}
